@@ -8,11 +8,13 @@ The dataset is based on the Starbucks menu from 2015. It may be outdated and fai
 
 Menu labeling requirements set by the Food and Drug Administration legally require chain restaurants with 20+ locations to list calorie counts and provide written nutritional information.
 
-Providing false informations could result in fines, product seizures, injunctions to halt sales, criminal prosecution, class action lawsuits, and severe reputational consequences. Thus, the data provided by Starbucks is reasonably trustworthy.
+Providing false information could result in fines, product seizures, injunctions to halt sales, criminal prosecution, class action lawsuits, and severe reputational consequences. Thus, the data provided by Starbucks is reasonably trustworthy.
 
 ## Data Analysis
 
 Link to [Starbucks Drinks](https://docs.google.com/spreadsheets/d/1wST1Gs_KWrpvbDZKvlQDv4_uY5zDmPmVElSazJOhqbY/edit?usp=sharing) Google Sheet.
+
+The dataset contains information for 177 Starbucks drinks. The columns contain values for the calories, fat, carbohydrates, fiber, protein, and sodium within a 12oz size of each drink.
 
 After downloading the dataset into Google Sheets, I applied a filter to remove drinks with missing data from display.
 
@@ -22,10 +24,13 @@ I created a new column to look at the percent of protein in regard to the amount
 
 I created different pivot tables for the "Protein" and "Calories" columns as well as my new "Protein/Calories %" column and sorted the drinks in descending order by each of these values.
 
-I created bar charts of the top 10 drinks in each category. I found "Protein" and "Protein/Calories %" to be the most interesting comparison, and took that into Datawrapper to create visualizations.
+I created bar charts of the top 10 drinks in each category. I found "Protein" and "Protein/Calories %" to be the most interesting comparison, so I took that into Datawrapper to create visualizations.
 
 ## Data Visualizations
 
 ![This is a bar chart of the top 10 Starbucks drinks with the most grams of protein.](by-protein.png)
 
 ![This is a bar chart of the top 10 Starbucks drinks with the most grams of protein per calorie count.](by-protein-percent.png)
+
+## Summary
+
