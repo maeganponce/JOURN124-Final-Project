@@ -26,3 +26,6 @@ I created bar charts of the top 10 drinks in each category. I found "Protein" an
 
 ## Data Visualizations
 
+![This is a bar chart of the top 10 Starbucks drinks with the most grams of protein.](by-protein.png)
+
+![This is a bar chart of the top 10 Starbucks drinks with the most grams of protein per calorie count.](by-protein-percent.png)
