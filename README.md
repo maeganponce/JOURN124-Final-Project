@@ -14,7 +14,7 @@ Providing false information could result in fines, product seizures, injunctions
 
 Link to [Starbucks Drinks](https://docs.google.com/spreadsheets/d/1wST1Gs_KWrpvbDZKvlQDv4_uY5zDmPmVElSazJOhqbY/edit?usp=sharing) Google Sheet.
 
-The dataset contains information for 177 different Starbucks drinks. Separate columns contain values for the calories, fat, carbohydrates, fiber, protein, and sodium within a 12oz (Tall) size of each drink.
+The dataset contains information for 177 different Starbucks drinks. Separate columns contain values for the calories, fat, carbohydrates, fiber, protein, and sodium within a 12 ounce (Tall) size of each drink.
 
 After importing the dataset CSV into Google Sheets, I applied a filter to remove drinks with missing data from display. I began sorting through different values, filtering to see which drinks stood at the extremes of calorie, fat, and protein content.
 
@@ -24,7 +24,7 @@ I decided to create a new column to look at the percent of protein in regard to 
 
 I created different pivot tables for the "Protein" and "Calories" columns as well as my new "Protein/Calories %" column and sorted the drinks in descending order by each of these values.
 
-I created bar charts of the top 10 drinks in each category. I found "Protein" and "Protein/Calories %" to be the most interesting comparison, so I took that into Datawrapper to create visualizations.
+I created bar charts of the top 10 drinks in each category, finding this to be the most appropriate chart type for the data. I found "Protein" and "Protein/Calories %" to be the most interesting comparison, so I took that into Datawrapper to create visualizations.
 
 ## Data Visualizations
 
@@ -34,3 +34,14 @@ I created bar charts of the top 10 drinks in each category. I found "Protein" an
 
 ## Summary
 
+This project investigates protein content of Starbucks drinks using a dataset of 177 beverages sourced from Kaggle and based on data originally provided by Starbucks. The data includes nutrition information for 12 ounce (Tall) sized drinks, listing calories, fat, carbohydrates, fiber, protein, and sodium.
+
+After importing the data into Google Sheets, drinks with missing values were filtered out, and then the remaining data was explored through several lenses. In line with current wellness trends, beverages with the highest protein content were identified.
+
+A new category of protein divided by calories was created to find drinks with the strongest protein-to-calorie ratio. Pivot tables and bar charts were utilized to isolate and visualize the drinks with the highest total protein and protein-per-calorie percentages.
+
+The dataset is based on the Starbucks menu from 2015, so it may not accurately represent current menu items. Due to the fact some drinks contain missing data, some menu items had to be filtered out during analysis.
+
+The nutritional information in the dataset originates from Starbucks itself, and is subject to Food and Drug Administration menu labeling regulations. Providing false information could result in severe legal ramifications, making the data generally reliable.
+
+The project focuses on protein to reflect a current diet trend. Whilst it is not a broad measure of nutrition or health, it can be a tool for those who particularly prioritize selecting high protein drinks off the Starbucks menu.
